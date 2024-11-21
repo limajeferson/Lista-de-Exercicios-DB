@@ -14,7 +14,7 @@ public class Calculadora {
         exibir("1 - (+) adição");
         exibir("2 - (-) subtração");
         exibir("3 - (*) multiplicação");
-//        exibir("4 - (/) divisão");
+        exibir("4 - (/) divisão");
 
         byte operador = input.nextByte();
 
