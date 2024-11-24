@@ -29,6 +29,10 @@ public class FusaoDeVetores {
         System.out.print(numeros);
     }
 
+    /*
+    * METODOS SEPARADOS
+    * */
+
     static void bubbleSort(byte[] vetor) {
         byte auxiliar;
         for (byte i = 0; i < vetor.length; i++) {
