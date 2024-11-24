@@ -3,7 +3,7 @@ package EstruturaDeRepeticao;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class sequenciaDeFibonacci {
+public class SequenciaDeFibonacciNovo {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
