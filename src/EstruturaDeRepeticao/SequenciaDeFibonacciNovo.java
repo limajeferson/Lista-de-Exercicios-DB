@@ -20,7 +20,9 @@ public class SequenciaDeFibonacciNovo {
                 lista.add((int) count);
             } else {
                 valor = (byte) (lista.get(count - 1) + lista.get(count - 2));
-                lista.add((int) valor);
+                if (valor <= numero ){
+                    lista.add((int) valor);
+                }
             }
             count++;
         } while (valor < numero);
