@@ -1,6 +1,6 @@
 package EstruturaDeRepeticao;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SequenciaDeFibonacciNovo {
@@ -9,18 +9,23 @@ public class SequenciaDeFibonacciNovo {
 
         System.out.println("Digite um número inteiro, não negativo: ");
 
-        byte count = input.nextByte();
-        int[] lista = new int[count + 1];
+        byte numero = input.nextByte();
+        ArrayList<Integer> lista = new ArrayList<>();
 
-        for (byte i = 0; i <= count; i++) {
-            if (i == 1 || i == 0) {
-                lista[i] = i;
+        byte valor = 0;
+        byte count = 0;
+
+        do {
+            if (count == 1 || count == 0) {
+                lista.add((int) count);
             } else {
-                lista[i] = lista[i - 1] + lista[i - 2];
+                valor = (byte) (lista.get(count - 1) + lista.get(count - 2));
+                lista.add((int) valor);
             }
-        }
+            count++;
+        } while (valor < numero);
 
-        System.out.print(Arrays.toString(lista) + "");
+        System.out.print((lista));
 
         input.close();
     }

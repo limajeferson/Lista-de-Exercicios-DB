@@ -20,7 +20,7 @@ public class SequenciaDeFibonacci {
             }
         }
 
-        System.out.print(Arrays.toString(lista) + "");
+        System.out.print(Arrays.toString(lista));
 
         input.close();
     }
