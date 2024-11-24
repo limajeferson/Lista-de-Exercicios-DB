@@ -8,8 +8,8 @@ public class GeradorNumerico {
         int[] arrayDeNumeros = new int[10];
 
         String numeros = "";
-        String maior = "";
-        String menor = "";
+        String maior;
+        String menor;
 
         for (byte i = 0; i < arrayDeNumeros.length; i++) {
             numero = (int) (Math.random() * 101);
