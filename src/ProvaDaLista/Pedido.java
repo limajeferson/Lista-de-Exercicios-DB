@@ -29,6 +29,14 @@ class Pedido {
         return valorTotalDoPedido;
     }
 
+    public double calcularTroco(double valorPago) {
+        if (valorPago < valorTotalDoPedido) {
+            System.out.println("Tá faltando dinheiro!");
+            return 0;
+        }
+        return valorPago - valorTotalDoPedido;
+    }
+
     public void imprimePedido() {
         for (Item item : listaDeItens) {
             System.out.println(item);

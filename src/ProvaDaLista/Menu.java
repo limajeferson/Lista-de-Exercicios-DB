@@ -16,8 +16,9 @@ class Menu {
             exibir("\n1. Mostrar Estoque");
             exibir("2. Adicionar Produto ao Pedido");
             exibir("3. Imprimir Pedido");
-            exibir("4. Finalizar Pedido");
-            exibir("5. Sair");
+            exibir("4. Calcular troco");
+            exibir("5. Finalizar Pedido");
+            exibir("6. Sair");
             System.out.print("Opção: ");
             opcao = input.nextInt();
             input.nextLine();
@@ -33,9 +34,13 @@ class Menu {
                     pedido.imprimePedido();
                     break;
                 case 4:
-                    exibir("Pedido Finalizado. Valor Total: R$" + pedido.getValorTotalDoPedido());
+                    calcularTroco();
                     break;
                 case 5:
+                    exibir("Pedido Finalizado. Valor Total: R$" + pedido.getValorTotalDoPedido());
+                    break;
+                case 6:
+                    exibir("Muito obrigado e Volte Sempre!");
                     break;
                 default:
                     exibir("Operação inválida, tente novamente");
@@ -70,6 +75,16 @@ class Menu {
             }
         } else {
             exibir("Produto não encontrado!");
+        }
+    }
+
+    public void calcularTroco() {
+        System.out.print("Digite o valor pago: R$");
+        double valorPago = input.nextDouble();
+        double troco = pedido.calcularTroco(valorPago);
+
+        if (troco > 0) {
+            exibir("Troco a ser devolvido: R$");
         }
     }
 }
