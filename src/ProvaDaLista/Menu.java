@@ -84,7 +84,7 @@ class Menu {
         double troco = pedido.calcularTroco(valorPago);
 
         if (troco > 0) {
-            exibir("Troco a ser devolvido: R$");
+            exibir("Troco a ser devolvido: R$" + troco);
         }
     }
 }
