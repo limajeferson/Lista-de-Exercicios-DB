@@ -7,6 +7,13 @@ class Pedido {
     private double valorTotalDoPedido = 0;
 
     public void adicionaItem(Item item) {
+        for (Item items : listaDeItens) {
+            if (items.getProduto().getId() == item.getProduto().getId()) {
+                items.defineValorTotal();
+                calculaValorTotal();
+                return;
+            }
+        }
         listaDeItens.add(item);
         calculaValorTotal();
     }

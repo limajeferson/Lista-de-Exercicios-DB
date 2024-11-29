@@ -12,13 +12,13 @@ class Menu {
         int opcao;
 
         do {
-            System.out.print("Digite uma opção:");
+            System.out.print("\nEscolha uma das opções:");
             exibir("\n1. Mostrar Estoque");
             exibir("2. Adicionar Produto ao Pedido");
             exibir("3. Imprimir Pedido");
             exibir("4. Finalizar Pedido");
             exibir("5. Sair");
-            System.out.print("Escolha uma opção: ");
+            System.out.print("Opção: ");
             opcao = input.nextInt();
             input.nextLine();
 
@@ -33,7 +33,7 @@ class Menu {
                     pedido.imprimePedido();
                     break;
                 case 4:
-                    exibir("Pedido Finalizado. Valor Total: R$ " + pedido.getValorTotalDoPedido());
+                    exibir("Pedido Finalizado. Valor Total: R$" + pedido.getValorTotalDoPedido());
                     break;
                 case 5:
                     break;
@@ -64,12 +64,12 @@ class Menu {
             if (estoque.darBaixaEmEstoque(nomeProduto, quantidade)) {
                 Item item = new Item(produto, quantidade);
                 pedido.adicionaItem(item);
-                System.out.println("Produto adicionado ao pedido!");
+                exibir("Produto adicionado ao pedido!");
             } else {
-                System.out.println("Estoque insuficiente!");
+                exibir("Estoque insuficiente!");
             }
         } else {
-            System.out.println("Produto não encontrado!");
+            exibir("Produto não encontrado!");
         }
     }
 }

@@ -23,8 +23,13 @@ class Item {
         return produto;
     }
 
+    public int getQuantidade() {
+        return quantidade;
+    }
+
     @Override
     public String toString() {
-        return produto.getNome() + " x " + quantidade + " = R$ " + valorDoItem;
+        return produto.getNome() + " x " + quantidade + " = R$" + valorDoItem;
     }
+
 }

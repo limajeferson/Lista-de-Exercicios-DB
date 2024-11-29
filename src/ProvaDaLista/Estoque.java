@@ -13,18 +13,18 @@ class Estoque {
     }
 
     public Produto encontraProduto(String nome) {
-        for (Produto p : listaDeProdutos) {
-            if (p.getNome().equalsIgnoreCase(nome)) {
-                return p;
+        for (Produto produto : listaDeProdutos) {
+            if (produto.getNome().equalsIgnoreCase(nome)) {
+                return produto;
             }
         }
         return null;
     }
 
     public Produto encontraProduto(int id) {
-        for (Produto p : listaDeProdutos) {
-            if (p.getId() == id) {
-                return p;
+        for (Produto produto : listaDeProdutos) {
+            if (produto.getId() == id) {
+                return produto;
             }
         }
         return null;
@@ -40,8 +40,8 @@ class Estoque {
     }
 
     public void imprimeCatalogoDoEstoque() {
-        for (Produto p : listaDeProdutos) {
-            System.out.println(p);
+        for (Produto produto : listaDeProdutos) {
+            System.out.println(produto);
         }
     }
 

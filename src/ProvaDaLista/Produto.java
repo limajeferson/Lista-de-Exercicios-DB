@@ -35,6 +35,6 @@ class Produto {
 
     @Override
     public String toString() {
-        return nome + " - R$ " + preco + " - Qtd: " + quantidadeEmEstoque;
+        return nome + " - R$" + preco + " - Qtd: " + quantidadeEmEstoque;
     }
 }
