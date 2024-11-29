@@ -25,46 +25,33 @@ Esta lista de exercícios em Java consiste em uma série de tarefas para aprimor
 ### Exercícios de Estruturas Básicas
 
 #### Usar `if-else`:
-1. Defina a idade de uma pessoa e verifique se ela é maior de idade ou não.
-2. Para cada produto informado (nome, preço e quantidade), escreva o nome do produto comprado e o valor total a ser pago, considerando que são oferecidos descontos pelo número de unidades compradas.
-3. Implemente um jogo **Jokenpo** (Pedra, papel ou tesoura). Será o jogador contra a máquina. O código deve gerar as posições aleatórias e comparar com a escolha do jogador.
+3 exercícios 
 
 #### Usar `switch-case`:
-4. Implemente o programa da **calculadora** utilizando uma instrução `switch-case` para determinar a operação que deve ser executada, conforme o usuário escolheu no menu de opções.
+1 exercício
 
 ### Exercícios de Estruturas de Repetição
 
 #### Usar `for`:
-5. Construa a tabuada de um número.
-6. Gere 10 números aleatórios entre 0 e 100; mostre todos na tela (em uma única linha); identifique o menor e o maior deles.
-7. Calcule a série de Fibonacci para um número inteiro não negativo informado pelo usuário.
+3 exercícios
 
 #### Usar `while/do-while`:
-8. Leia um número até que o usuário digite 10.
-9. Altere o exercício 7 para o algoritmo contar a série Fibonacci até um determinado número.
+2 exercícios
 
 ### Exercícios com Vetores e Matrizes
 
-10. Leia uma matriz quadrada e determine a soma da diagonal principal.
-11. Ordene um vetor de 100 números inteiros gerados aleatoriamente.
-12. Crie dois vetores de 50 posições com valores inteiros aleatórios, ordene cada vetor individualmente, e combine os dois vetores gerando um novo vetor de 100 posições, ordenando esse novo vetor.
+3 exercícios
 
 ### Exercícios com Métodos
 
-13. Faça um método que calcule a média de um aluno de acordo com o critério definido neste curso. Além disso, faça um outro método que informe o status do aluno.
-14. Leia do usuário o tempo em segundos e escreva em horas, minutos e segundos. Utilize cinco métodos para a leitura e escrita de dados e para a conversão de tempo.
-15. Crie uma classe **Calculadora** que faça as operações de soma, subtração, multiplicação, divisão e potenciação. Cada operação deve ser um método estático.
+3 exercícios
 
 ### Exercícios de Orientação a Objetos
 
-16. Faça um programa para controle de empréstimo de livros, com as classes **Emprestimo**, **Livro** e **Pessoa**.
-17. Faça um programa para representar a árvore genealógica de uma família. Crie uma classe **Pessoa** que permita indicar nome, idade, pai e mãe.
-18. Crie uma classe **Automóvel**, identificando seus atributos e métodos. Herdando tais características, crie as classes **Carro**, **Moto** e **Guincho**. A classe **CarroAutomático** deve exigir que o freio esteja pressionado para ligar, e a **MotoPartidaPedal** deve exigir que o acelerador esteja puxado. Utilize os 4 pilares da POO.
-19. Implemente um sistema de **agenda telefônica** com interações para adicionar e deletar números.
+4 exercícios
 
 ### ProvaDaLista
 
-20. O projeto **SuperMercadoProva** simula o sistema de gerenciamento de vendas de um supermercado, com controle de estoque e verificação de produtos no pedido. As tarefas incluem:
 - Corrigir um bug (fácil).
 - Desenvolver um método para calcular o troco (médio).
 - Desenvolver um método para calcular a menor quantidade de notas para o troco (difícil).
