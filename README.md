@@ -18,44 +18,6 @@ Após resolver os exercícios e validá-los, liberei minhas respostas num reposi
 
 Se você não tem familiaridade com o Git e GitHub, sugerimos que consulte o seguinte material: [Como usar Git e Github na prática](https://youtu.be/UBAX-13g8OM).
 
-## O Desafio
-
-Esta lista de exercícios em Java consiste em uma série de tarefas para aprimorar suas habilidades de programação. Ela está dividida em cinco partes: **Estruturas Básicas**, **Estruturas de Repetição**, **Vetores e Matrizes**, **Métodos** e **Orientação a Objetos**. Cada exercício tem o objetivo de trabalhar um conceito específico e testar suas habilidades de resolução de problemas.
-
-### Exercícios de Estruturas Básicas
-
-#### Usar `if-else`:
-3 exercícios 
-
-#### Usar `switch-case`:
-1 exercício
-
-### Exercícios de Estruturas de Repetição
-
-#### Usar `for`:
-3 exercícios
-
-#### Usar `while/do-while`:
-2 exercícios
-
-### Exercícios com Vetores e Matrizes
-
-3 exercícios
-
-### Exercícios com Métodos
-
-3 exercícios
-
-### Exercícios de Orientação a Objetos
-
-4 exercícios
-
-### ProvaDaLista
-
-- Corrigir um bug (fácil).
-- Desenvolver um método para calcular o troco (médio).
-- Desenvolver um método para calcular a menor quantidade de notas para o troco (difícil).
-
 ---
 
 ## Instalando e Rodando o Código
