@@ -21,7 +21,7 @@ class Estoque {
         return null;
     }
 
-    public Produto encontraProduto(int id) {
+    public Produto encontraProduto(int id) { // preciso adicionar 29/11
         for (Produto produto : listaDeProdutos) {
             if (produto.getId() == id) {
                 return produto;
@@ -45,8 +45,7 @@ class Estoque {
         }
     }
 
-    // Getters e Setters
-    public ArrayList<Produto> getListaDeProdutos() {
+    public ArrayList<Produto> getListaDeProdutos() { // preciso adicionar 29/11
         return listaDeProdutos;
     }
 }

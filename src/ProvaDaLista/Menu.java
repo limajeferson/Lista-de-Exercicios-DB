@@ -82,9 +82,10 @@ class Menu {
         System.out.print("Digite o valor pago: R$");
         double valorPago = input.nextDouble();
         double troco = pedido.calcularTroco(valorPago);
+        double trocoNotas = pedido.calcularNotas(troco);
 
-        if (troco > 0) {
-            exibir("Troco a ser devolvido: R$" + troco);
+        if (trocoNotas > 0) {
+            exibir("Troco a ser devolvido: R$" + trocoNotas); // melhorar a lógica
         }
     }
 }
