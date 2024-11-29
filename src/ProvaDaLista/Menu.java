@@ -1,4 +1,4 @@
-package Prova;
+package ProvaDaLista;
 
 import java.util.Scanner;
 
@@ -47,7 +47,7 @@ class Menu {
         estoque.imprimeCatalogoDoEstoque();
     }
 
-    public void exibir(String texto){
+    public void exibir(String texto) {
         System.out.println(texto);
     }
 

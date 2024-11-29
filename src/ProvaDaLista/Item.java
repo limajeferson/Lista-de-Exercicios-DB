@@ -1,4 +1,4 @@
-package Prova;
+package ProvaDaLista;
 
 class Item {
     private Produto produto;

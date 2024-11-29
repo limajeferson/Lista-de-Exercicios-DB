@@ -1,4 +1,4 @@
-package Prova;
+package ProvaDaLista;
 
 public class SuperMercadoProva {
     public static void main(String[] args) {

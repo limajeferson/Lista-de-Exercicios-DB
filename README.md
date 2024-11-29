@@ -62,7 +62,7 @@ Esta lista de exercícios em Java consiste em uma série de tarefas para aprimor
 18. Crie uma classe **Automóvel**, identificando seus atributos e métodos. Herdando tais características, crie as classes **Carro**, **Moto** e **Guincho**. A classe **CarroAutomático** deve exigir que o freio esteja pressionado para ligar, e a **MotoPartidaPedal** deve exigir que o acelerador esteja puxado. Utilize os 4 pilares da POO.
 19. Implemente um sistema de **agenda telefônica** com interações para adicionar e deletar números.
 
-### Prova
+### ProvaDaLista
 
 20. O projeto **SuperMercadoProva** simula o sistema de gerenciamento de vendas de um supermercado, com controle de estoque e verificação de produtos no pedido. As tarefas incluem:
 - Corrigir um bug (fácil).

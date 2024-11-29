@@ -1,4 +1,4 @@
-package Prova;
+package ProvaDaLista;
 
 import java.util.ArrayList;
 
